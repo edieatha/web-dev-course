@@ -175,9 +175,9 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
 }
 
 .speaker-resume {
-  font-style: italic;
-  font-size: 0.8rem;
   color: #ec5242;
+  font-size: 0.8rem;
+  font-style: italic;
   margin: 0;
 }
 
@@ -190,8 +190,8 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
 }
 
 .gray-divider {
-  margin: 0;
   color: lightgray;
+  margin: 0;
 }
 
 .featured-speakers-container {
@@ -199,8 +199,50 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
 }
 
 .featured-speakers-h1 {
-  text-align: center;
   margin-top: 3rem;
+  text-align: center;
+}
+
+.partners {
+  background-color: #272a31;
+  padding: 1.5rem 0 1.5rem 0;
+  text-align: center;
+}
+
+.partners-h1 {
+  color: #dbdbdb;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.partner-logos-ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 3rem;
+  list-style-type: none;
+}
+
+.logo-item-li {
+  padding: 0 2rem;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 4rem;
+}
+
+.logo-footer {
+  margin: auto 2rem;
+  text-align: right;
+  width: 50%;
+}
+
+.footer-copright-text {
+  font-size: 0.8rem;
+  margin: auto;
+  padding: 0 2rem;
+  width: 50%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -214,6 +256,7 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
     background: transparent;
     box-shadow: none;
     display: flex;
+    position: absolute;
   }
 
   .lecture,
@@ -240,6 +283,14 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
   }
 
   .featured-speakers-col-2 {
+    display: none;
+  }
+
+  .footer-copright-text {
+    padding: 0;
+  }
+
+  .footer-copright-text-p {
     display: none;
   }
 }
