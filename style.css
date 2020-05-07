@@ -284,6 +284,16 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
   padding: 2rem 4rem;
 }
 
+.footer-dark {
+  display: flex;
+  padding: 2rem 4rem;
+}
+
+.footer-light {
+  display: flex;
+  padding: 2rem 4rem;
+}
+
 .logo-footer {
   margin: auto 2rem;
   text-align: right;
@@ -308,8 +318,8 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
 
 .code-camps-h1,
 .code-camps-p {
-  font-family: "COCOGOOSE", sans-serif;
   color: white;
+  font-family: "COCOGOOSE", sans-serif;
   text-align: center;
 }
 
@@ -322,8 +332,8 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
   background-color: #ec524263;
   background-image: url(./img/codecamp.jpg);
   background-size: cover;
-  padding: 5rem 6rem;
   margin: 1rem;
+  padding: 5rem 6rem;
 }
 
 .past-code-camps-container {
@@ -332,13 +342,19 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
   justify-content: center;
 }
 
+.footer-dark {
+  background-color: #272a31;
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   .top-bar,
   .logo-main,
   .main-nav,
   .partners,
   .footer,
-  .header-text-2 {
+  .header-text-2,
+  .footer-dark {
     display: none;
   }
 
@@ -395,6 +411,7 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
   .our-logo {
     width: 20rem;
   }
+
   .our-logo > img {
     height: 80px;
   }
@@ -402,7 +419,9 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
 
 @media only screen and (min-width: 768px) {
   .main-navicon,
-  .join-action-btn {
+  .join-action-btn,
+  .partners-1abt,
+  .footer {
     display: none;
   }
 
