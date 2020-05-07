@@ -385,7 +385,8 @@ background: -webkit-linear-gradient(#f90, #ff2f00);
   .partners,
   .footer,
   .header-text-2,
-  .footer-dark {
+  .footer-dark,
+  .sub-mav-bar {
     display: none;
   }
 
