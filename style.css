@@ -89,9 +89,9 @@ html {
 }
 
 .announce-h1 {
+background: -webkit-linear-gradient(#f90, #ff2f00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background: -webkit-linear-gradient(#f90, #ff2f00);
   font-family: "COCOGOOSE", sans-serif;
   font-size: 3rem;
   line-height: 120%;
@@ -165,6 +165,44 @@ html {
   padding: 1rem;
 }
 
+.speaker {
+  display: flex;
+  padding: 1rem;
+}
+
+.speaker-name {
+  margin: 4px;
+}
+
+.speaker-resume {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: #ec5242;
+  margin: 0;
+}
+
+.speaker-details {
+  font-size: 0.8rem;
+}
+
+.speaker-info {
+  padding: 1rem;
+}
+
+.gray-divider {
+  margin: 0;
+  color: lightgray;
+}
+
+.featured-speakers-container {
+  display: flex;
+}
+
+.featured-speakers-h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
 @media only screen and (max-width: 768px) {
   .top-bar,
   .logo-main,
@@ -200,6 +238,10 @@ html {
   .lecture-description {
     width: 60%;
   }
+
+  .featured-speakers-col-2 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -218,6 +260,10 @@ html {
   .workshop,
   .ignite {
     text-align: center;
+  }
+
+  .featured-speakers-container {
+    margin: 0 10rem;
   }
 }
 
