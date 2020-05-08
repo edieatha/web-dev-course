@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-	<link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet" type="text/css"/>
-	<script src="https://use.fontawesome.com/d11afd1868.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+		<link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet" type="text/css"/>
+		<script src="https://use.fontawesome.com/d11afd1868.js"></script>
 
-	<title>Web Developer Course</title>
+	<title>Web Developer Course - Tickets</title>
 </head>
-<body>
+<body class="main-container">
 	<nav class="navbar">
 		<div class="top-bar">
 			<ul class="top-bar-ul">
@@ -29,7 +29,7 @@
 			<div class="logo-main"><img src="./img/logo-main.svg" alt="main-logo" height="60"></div>
 			<div class="main-nav"><ul class="main-nav-ul">
 				<li class="main-nav-li-item"><a href="index.html"><span class="main-nav-span">Home</span></a></li>
-				<li class="main-nav-li-item"><span class="main-nav-span">About</span></li>
+				<li class="main-nav-li-item"><a href="about.html"><span class="main-nav-span">About</span></a></li>
 				<li class="main-nav-li-item"><span class="main-nav-span">Tickets</span></li>
 				<li class="main-nav-li-item"><span class="main-nav-span main-nav-campaign-btn">CE Campaign</span></li>
 			</ul></div>
@@ -45,45 +45,75 @@
 		</div>
 
 	</nav>
-	<header class="header-hero-1a">
+	<header class="header-hero-1t">
 		<div class="header-text-1a">
-			<h1 class="hello-h1">"Hello Web Developers"</h1>
-			<h1 class="announce-h1">WEB DEVELOPER <br>FULL STACK COURSE 2020</h1>
+			<h1 class="hello-h1">Select Tickets</h1>
 			<p class="main-divider">______</p>
-			<p class="description-p-1a">On this course from the Raspberry Pi Foundation, you’ll first build a website using HTML, style it with CSS, and then make it interactive using JavaScript.<br>
+			
+			<div class="description-p-1t"><span class="square-bullet fa fa-square"></span>
+				<span class="step-one">STEP1</span>Please select the day you will attend the CE Developers Course
+			</div>
+			
 
-Along the way you’ll learn about the box model, which describes how websites are laid out by browsers, and about the Document Object Model, which your JavaScript code will interact with to dynamically change your web pages.<br>
+			   <div class="tickets-table">
+				<div class="grid-item-1">Ticket</div>
+				<div class="grid-item-2">1-Day-Ticket</div>
+				<div class="grid-item-3">2-Day-Ticket</div>
+				<div class="grid-item-4">Partners</div>
+				<div class="grid-item-5">Date</div>
+				<div class="grid-item-6">15. Oct(Thu)</div>
+				<div class="grid-item-7">16. Oct(Fri)</div>
+				<div class="grid-item-8">15-16 Oct(Thu-Fri)</div>
+				<div class="grid-item-9">15-16 Oct(Thu-Fri)</div>
+				<div class="grid-item-10">Normal</div>
+				<div class="grid-item-11">$2,000<br><input type="radio" id="2000" name="fee" value="fees" class="fees-choice"></div>
+				<div class="grid-item-12">$2,000<br><input type="radio" id="2000" name="fee" value="fees" class="fees-choice"></div>
+				<div class="grid-item-13">$4,000<br><input type="radio" id="4000" name="fee" value="fees" class="fees-choice"></div>
+				<div class="grid-item-14">$0<br><input type="radio" id="0" name="fee" value="fees" class="fees-choice"></div>
+				<div class="grid-item-15">Students</div>
+				<div class="grid-item-16">$1,000<br><input type="radio" id="1000" name="fee" value="fees" class="fees-choice"></div>
+				<div class="grid-item-17">$1,000<br><input type="radio" id="1000" name="fee" value="fees" class="fees-choice"></div>
+				<div class="grid-item-18">$2,000<br><input type="radio" id="2000" name="fee" value="fees" class="fees-choice"></div>
+				<div class="grid-item-19">$0<br><input type="radio" id="0" name="fee" value="fees" class="fees-choice"></div>
 
-In the final week, you’ll design and create a quiz web page and demonstrate your new skills by making your own website.
-</p>
-			<h3 class="date-venue-h3">Please contact us for any further questions about CE Developer's Course 2020!</h3>
-			<h3 class="date-venue-email"><a href="#">codexpert2020@gmail.com!</a></h3>
+			</div>
+
 		</div>
 </header>
-	<section class="featured-speakers">
-		<h2 class="featured-speakers-h1">Who is this course for?</h2>
-		<p class="main-divider">______</p>
-		<div class="course-info">This course is designed for teachers delivering lessons at a GCSE level or equivalent, and for beginner programmers looking to start using HTML and JavaScript.<br>To take this course, you need to be familiar with basic programming structures such as loops and if statements, but you don’t need any experience of HTML, CSS or JavaScript.</div>
-		<div class="our-logo"><img src="./img/logo-main.svg" alt="main-logo" height="60"></div>
-	</section>
+	<section class="select-lunch">
+		<h1 class="hello-h1">Select Your Lunch</h1>
+			<p class="main-divider">______</p>
+			
+			<div class="description-p-1t"><span class="square-bullet fa fa-square"></span>
+				<span class="step-one">STEP1</span>Please select your lunch for the registered day. There will be no further costs for lunch.
+			</div>
 
-	<section class="featured-speakers">
-		<h2 class="featured-speakers-h1">See our past CE Web Developer Bootcamps</h2>
-		<p class="main-divider">______</p>
-			<div class="past-code-camps-container">
-				<div class="past-code-camps">
-					<span clas="past-code-camp-info">
-						<h1 class="code-camps-h1">2018</h1>
-						<p class="code-camps-p">CE Web Developers Camp</p>
-					</span>
-				</div>
-				<div class="past-code-camps">
-					<span clas="past-code-camp-info">
-						<h1 class="code-camps-h1">2019</h1>
-						<p class="code-camps-p">CE Web Developers Camp</p>
-					</span>
+			<div class="menu-1">
+				<div class="menu-title">15. Oct(Thu) Menu</div>
+				<div class="menu-choice">
+					<ul class="menu-choice-ul">
+						<li class="menu-choice-li">Menu 1<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+						<li class="menu-choice-li">Menu 2<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+						<li class="menu-choice-li">Menu 3<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+						<li class="menu-choice-li">Menu 4<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+					</ul>
 				</div>
 			</div>
+
+			<div class="menu-1">
+				<div class="menu-title">16. Oct(Fri) Menu</div>
+				<div class="menu-choice">
+					<ul class="menu-choice-ul">
+						<li class="menu-choice-li">Menu 1<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+						<li class="menu-choice-li">Menu 2<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+						<li class="menu-choice-li">Menu 3<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+						<li class="menu-choice-li">Menu 4<input type="radio" id="menu" name="menu1" value="menu" class="menu-choice"></li>
+					</ul>
+				</div>
+			</div>
+
+			<span class="submit-btn">Submit Selection</span>
+
 	</section>
 
 	<section class="partners-1abt">
