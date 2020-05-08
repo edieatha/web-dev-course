@@ -1,8 +1,13 @@
 body,
 html {
   font-family: 'Lato', sans-serif;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+}
+
+.main-container {
+  max-width: 1310px;
+  border: 0.5px solid lightgray;
 }
 
 @font-face {
@@ -56,7 +61,6 @@ html {
 
 .main-nav-bar {
   background-color: white;
-  box-shadow: 4px 1px 6px 0 #b1b1b1;
   display: flex;
   position: relative;
 }
@@ -121,6 +125,13 @@ html {
   text-align: center;
 }
 
+.header-hero-1t {
+  background-color: #e7e7e7;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .header-text-1 {
   padding: 3rem;
   width: 60%;
@@ -159,10 +170,139 @@ html {
 .description-p-1a {
   background-color: white;
   border: 3px solid white;
-  padding: 1rem;
-  line-height: 2rem;
-  font-weight: 300;
   box-shadow: 1px 1px 4px 1px #ababab;
+  font-weight: 300;
+  line-height: 2rem;
+  padding: 1rem;
+}
+
+.tickets-table {
+  background-color: white;
+  box-shadow: 1px 1px 4px 1px #ababab;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  height: 12rem;
+  justify-content: center;
+  font-size: 0.7rem;
+  margin-top: 2rem;
+  border-style: solid;
+  border-width: 7px 7px 7px 7px;
+  -moz-border-image: url(img/striped-background-vector-24.jpg) 25 25 25 25 repeat repeat;
+  -webkit-border-image: url(img/striped-background-vector-24.jpg) 25 25 25 25 repeat repeat;
+  -o-border-image: url(img/striped-background-vector-24.jpg) 25 25 25 25 repeat repeat;
+  border-image: url(img/striped-background-vector-24.jpg) 25 25 25 25 repeat repeat;
+}
+
+.grid-item-3 {
+  background-color: #d0d0d0;
+  grid-column-end: 5;
+  grid-column-start: 3;
+}
+
+.grid-item-11,
+.grid-item-12,
+.grid-item-13,
+.grid-item-14,
+.grid-item-16,
+.grid-item-17,
+.grid-item-18,
+.grid-item-19 {
+  color: #ec5242;
+  font-weight: 500;
+  line-height: 1rem;
+  padding: 0.5rem;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4 {
+  background-color: #d0d0d0;
+  padding: 0.5rem;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4,
+.grid-item-5,
+.grid-item-6,
+.grid-item-7,
+.grid-item-8,
+.grid-item-9,
+.grid-item-10,
+.grid-item-11,
+.grid-item-12,
+.grid-item-13,
+.grid-item-14,
+.grid-item-15 {
+  border-bottom: 1px solid #efefef;
+  padding: 0.5rem;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4,
+.grid-item-5,
+.grid-item-6,
+.grid-item-7,
+.grid-item-8,
+.grid-item-9,
+.grid-item-10,
+.grid-item-11,
+.grid-item-12,
+.grid-item-13,
+.grid-item-14,
+.grid-item-15,
+.grid-item-16,
+.grid-item-17,
+.grid-item-18,
+.grid-item-19 {
+  border-right: 1px solid #efefef;
+  padding: 0.5rem;
+}
+
+.fees-choice {
+  font-size: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.description-p-1t {
+  border-radius: 50px;
+  border: 1px solid #bbb;
+  display: inline;
+  font-size: 0.7rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+}
+
+.select-lunch > .description-p-1t {
+  border-radius: 50px;
+  border: 1px solid #bbb;
+  display: inline;
+  font-size: 0.7rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+}
+
+.description-p-1t .step-one {
+  color: #ec5242;
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.description-p-1t .square-bullet {
+  color: #ec5242;
+  font-size: 0.6rem;
+  margin-right: 0.5rem;
+  transform: rotate(45deg);
 }
 
 .date-h2 {
@@ -210,6 +350,17 @@ html {
   margin: 0 2rem;
   padding: 1rem;
   text-align: center;
+}
+
+.submit-btn {
+  background-color: #ec5242;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: 2rem auto;
+  padding: 1rem 4rem;
+  text-align: center;
+  width: 10rem;
 }
 
 .lecture-h3 {
@@ -276,6 +427,10 @@ html {
 .featured-speakers-h1 {
   font-weight: 300;
   margin-top: 3rem;
+  text-align: center;
+}
+
+.select-lunch {
   text-align: center;
 }
 
@@ -374,6 +529,31 @@ html {
   justify-content: center;
 }
 
+.menu-1 {
+  border: 1px solid lightgray;
+  box-shadow: 1px 4px 7px 1px #e6e6e6;
+  margin: 2rem auto;
+  width: 60%;
+  font-size: 0.8rem;
+}
+
+.menu-title {
+  background-color: lightgray;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.menu-choice-ul {
+  list-style-type: none;
+  padding: 0 8rem;
+}
+
+.menu-choice-li {
+  display: inline;
+  margin: 0 1rem;
+}
+
 @media only screen and (max-width: 768px) {
   .top-bar,
   .logo-main,
@@ -388,6 +568,10 @@ html {
 
   .header-text-1 {
     width: 100%;
+  }
+
+  .menu-1 {
+    width: 90%;
   }
 
   .main-nav-bar {
@@ -424,7 +608,8 @@ html {
     display: none;
   }
 
-  .footer-copright-text {
+  .footer-copright-text,
+  .menu-choice-ul {
     padding: 0;
   }
 
