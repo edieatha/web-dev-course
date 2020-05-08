@@ -3,9 +3,15 @@ Web Developer Course and Bootcamp. Designed with CSS Flex-box.
 
 > Web Developer Course
 
-![screenshot](./screenshot.jpg)
-
 This is a website for a web developer course or bootcamp scheduled at @ Massachusetts Institute of Technology, Cambridge, MA. Attendees can view the program and schedule online and select days they want to attend (tickets).
+
+![screenshot](./screenshot1.png)
+
+![screenshot](./screenshot2.png)
+
+![screenshot](./screenshot3.png)
+
+
 
 ## Milestones 
 
