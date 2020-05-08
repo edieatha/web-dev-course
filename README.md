@@ -25,7 +25,7 @@ This is a website for a web developer course or bootcamp scheduled at @ Massachu
 
 ## Live Demo
 
-[Live Demo Link](https://happy-allen-7066bf.netlify.app)
+[Live Demo Link](https://zealous-jennings-77868e.netlify.app/)
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Visit repository
 
-### Download Repository (git@github.com:edieatha/newsweek.git)
+### Download Repository (git@github.com:edieatha/web-dev-course.git)
 
 ### Open index.html
 
@@ -54,7 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/edieatha/newsweek/issues).
+Feel free to check the [issues page](https://github.com/edieatha/web-dev-course/issues).
 
 ## Show your support
 
@@ -62,8 +62,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- Design idea by Cindy Shin in Behance (https://www.behance.net/adagio07)
+- Logo Design by <a href="http://www.freepik.com">Designed by Freepik</a>
 - etc
 
 ## 📝 License
