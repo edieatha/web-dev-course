@@ -46,6 +46,11 @@ html {
   text-decoration: none;
 }
 
+.sub-nav-li > a {
+  color: #272a31;
+  text-decoration: none;
+}
+
 .date-venue-email > a {
   color: black;
 }
@@ -112,7 +117,6 @@ html {
 .header-hero {
   background-color: #e7e7e7;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23c7c7c7' fill-opacity='0.43'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
-  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -325,6 +329,8 @@ html {
   color: white;
   margin: 0;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-program-h1,
@@ -381,6 +387,7 @@ html {
 .speaker {
   display: flex;
   padding: 1rem;
+  flex-direction: row;
 }
 
 .speaker-name {
@@ -458,6 +465,7 @@ html {
   justify-content: center;
   line-height: 3rem;
   list-style-type: none;
+  flex-direction: row;
 }
 
 .logo-item-li {
@@ -467,6 +475,7 @@ html {
 .footer {
   display: flex;
   padding: 2rem 4rem;
+  flex-direction: row;
 }
 
 .footer-dark {
@@ -474,11 +483,13 @@ html {
   color: white;
   display: flex;
   padding: 2rem 4rem;
+  flex-direction: row;
 }
 
 .footer-light {
   display: flex;
   padding: 2rem 4rem;
+  flex-direction: row;
 }
 
 .logo-footer {
@@ -488,7 +499,7 @@ html {
 }
 
 .footer-copright-text {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   margin: auto;
   padding: 0 2rem;
   width: 50%;
@@ -527,6 +538,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction: row;
 }
 
 .menu-1 {
@@ -561,13 +573,26 @@ html {
   .partners,
   .footer,
   .header-text-2,
-  .footer-dark,
-  .sub-mav-bar {
+  .footer-dark {
     display: none;
   }
 
   .header-text-1 {
-    width: 100%;
+    flex-direction: column;
+    width: 80%
+  }
+
+  .announce-h1 {
+    font-size: 2.5rem;
+  }
+
+  .description-p,
+  .description-p-1a {
+    font-size: 0.9rem;
+  }
+
+  .date-venue-h3 {
+    font-size: 0.9rem;
   }
 
   .menu-1 {
@@ -581,6 +606,11 @@ html {
     position: absolute;
   }
 
+    .main-program-plan {
+    display: flex;
+    flex-direction: column;
+  }
+
   .lecture,
   .exhibit,
   .forum,
@@ -588,6 +618,7 @@ html {
   .ignite {
     display: inline-flex;
     justify-content: space-around;
+    flex-direction: row;
   }
 
   .lecture-icon {
@@ -640,6 +671,7 @@ html {
 
   .main-program-plan {
     display: flex;
+    flex-direction: row;
   }
 
   .lecture,
