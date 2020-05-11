@@ -579,7 +579,7 @@ html {
 
   .header-text-1 {
     flex-direction: column;
-    width: 80%
+    width: 80%;
   }
 
   .announce-h1 {
@@ -606,7 +606,7 @@ html {
     position: absolute;
   }
 
-    .main-program-plan {
+  .main-program-plan {
     display: flex;
     flex-direction: column;
   }
